@@ -12,5 +12,5 @@ wavディレクトリにファイルをおいて実行
 
 ```
 docker run --rm --name vosk-python-try -v $(pwd)/src:/src -v $(pwd)/wav:/wav vosk-python-try python wave_sample.py /wav/<filename>
-docker run --rm --name vosk-python-try -v $(pwd)/src:/src -v $(pwd)/wav:/wav vosk-python-try python scipy_sample.py /wav/<filename>
+docker run --rm --name vosk-python-try -v $(pwd)/src:/src -v $(pwd)/wav:/wav vosk-python-try python soundfile_sample.py /wav/<filename>
 ```
