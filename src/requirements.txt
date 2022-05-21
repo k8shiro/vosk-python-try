@@ -1,0 +1,4 @@
+vosk
+numpy
+matplotlib
+PySoundFile
